@@ -1,0 +1,15 @@
+anastasiagoncarenko@MacBook-Pro-Anastasia DevOps_online_Dnipro_2021Q4 % git reflog
+f1a8fcb (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: pull --tags origin main: Fast-forward
+2b7aa1c HEAD@{1}: checkout: moving from develop to main
+d10c60f (origin/develop, develop) HEAD@{2}: pull --tags origin develop: Fast-forward
+754fd24 HEAD@{3}: checkout: moving from styles to develop
+562bcf7 (styles) HEAD@{4}: commit: modify index.html
+8d5126b HEAD@{5}: commit: Add file styles.css
+754fd24 HEAD@{6}: checkout: moving from develop to styles
+754fd24 HEAD@{7}: checkout: moving from images to develop
+72b0545 (origin/images, images) HEAD@{8}: commit: modifie index html
+4de60bb HEAD@{9}: commit: add images winnie the pooh
+754fd24 HEAD@{10}: checkout: moving from develop to images
+754fd24 HEAD@{11}: checkout: moving from main to develop
+2b7aa1c HEAD@{12}: checkout: moving from develop to main
+754fd24 HEAD@{13}: commit: add index.html
