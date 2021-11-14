@@ -12,3 +12,8 @@ Made tree of tests snapshots
 
 > Test the VBox from CLI:
 ![4](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m2/task2.1/Homework%20part3.png)
+
+> Create use and delete VM via Vagrant:
+![5](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m2/task2.1/Vagrant_Create%20VM.png)
+![6](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m2/task2.1/Vagrant_Date.png)
+![7](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m2/task2.1/Vagrant_Destroy.png)
