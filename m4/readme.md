@@ -64,6 +64,8 @@ mysql> SHOW TABLES;
 
 mysql>
 
+> DB AWS
+
 
 ![5](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202%20AWS.png)
 
