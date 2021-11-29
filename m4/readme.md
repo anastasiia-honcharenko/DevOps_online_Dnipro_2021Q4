@@ -13,7 +13,7 @@
 
 > Part 2 : Work with DB
 > 
-  mysql> SHOW DATABASES;
+ mysql> SHOW DATABASES;
 +--------------------+
 | Database           |
 +--------------------+
@@ -92,3 +92,4 @@ mysql> SHOW TABLES;
 4 rows in set (0.01 sec)
 
 mysql>
+
