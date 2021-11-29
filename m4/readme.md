@@ -14,18 +14,8 @@
 > Part 2 : Work with DB
 > 
  mysql> SHOW DATABASES;
-+--------------------+
-| Database           |
-+--------------------+
-| books              |
-| information_schema |
-| library            |
-| mysql              |
-| performance_schema |
-| pets               |
-| sys                |
-+--------------------+
-7 rows in set (0.00 sec)
+ 
+![2](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202%20.png)
 
 mysql> USE lybrary;
 ERROR 1049 (42000): Unknown database 'lybrary'
@@ -35,28 +25,15 @@ You can turn off this feature to get a quicker startup with -A
 
 Database changed
 mysql> SHOW TABLES;
-+-------------------+
-| Tables_in_library |
-+-------------------+
-| Author            |
-| Book              |
-| BookAuthor        |
-| Chapter           |
-+-------------------+
-4 rows in set (0.01 sec)
+
+![3](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202%20(1).png)
 
 mysql> drop table Author;
 Query OK, 0 rows affected (0.09 sec)
 
 mysql> SHOW TABLES;
-+-------------------+
-| Tables_in_library |
-+-------------------+
-| Book              |
-| BookAuthor        |
-| Chapter           |
-+-------------------+
-3 rows in set (0.00 sec)
+
+![4](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202(2).png)
 
 mysql> ^DBye
 root@e-bash3:/# mysql library < ahocharenkolbrry.sql
@@ -81,15 +58,9 @@ You can turn off this feature to get a quicker startup with -A
 
 Database changed
 mysql> SHOW TABLES;
-+-------------------+
-| Tables_in_library |
-+-------------------+
-| Author            |
-| Book              |
-| BookAuthor        |
-| Chapter           |
-+-------------------+
-4 rows in set (0.01 sec)
+
+
+![4](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202(3).png)
 
 mysql>
 
