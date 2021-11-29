@@ -64,7 +64,6 @@ mysql> SHOW TABLES;
 
 mysql>
 
-> Part 3: Amazon DynamoDB
 
-![5](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%203.png)
+![5](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%202%20AWS.png)
 
