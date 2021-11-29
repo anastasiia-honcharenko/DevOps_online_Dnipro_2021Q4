@@ -1,5 +1,5 @@
 > Create database
-Work with DB
+  Work with DB
 1. Download MySQL;
 2. Install MysQL;
 3. Select a subject area end describe the database schema;
