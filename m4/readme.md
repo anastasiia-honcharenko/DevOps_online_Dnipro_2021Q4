@@ -1,4 +1,4 @@
-> Create database
+> Part 1 : Create database
   
 1. Download MySQL;
 2. Install MysQL;
@@ -10,3 +10,85 @@
 8. Create a database on new users, connect to DB;
 9. Make a selection from the main table
 ![1](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m4/DB%20Part%201.png)
+
+> Part 2 : Work with DB
+> 
+  mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| books              |
+| information_schema |
+| library            |
+| mysql              |
+| performance_schema |
+| pets               |
+| sys                |
++--------------------+
+7 rows in set (0.00 sec)
+
+mysql> USE lybrary;
+ERROR 1049 (42000): Unknown database 'lybrary'
+mysql> USE library;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_library |
++-------------------+
+| Author            |
+| Book              |
+| BookAuthor        |
+| Chapter           |
++-------------------+
+4 rows in set (0.01 sec)
+
+mysql> drop table Author;
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_library |
++-------------------+
+| Book              |
+| BookAuthor        |
+| Chapter           |
++-------------------+
+3 rows in set (0.00 sec)
+
+mysql> ^DBye
+root@e-bash3:/# mysql library < ahocharenkolbrry.sql
+root@e-bash3:/# mysql
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 14
+Server version: 8.0.27-0ubuntu0.20.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2021, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SHOW TABLES;
+ERROR 1046 (3D000): No database selected
+mysql> USE library;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_library |
++-------------------+
+| Author            |
+| Book              |
+| BookAuthor        |
+| Chapter           |
++-------------------+
+4 rows in set (0.01 sec)
+
+mysql>
