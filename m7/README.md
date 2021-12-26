@@ -1,6 +1,7 @@
 > I've created file script for:
 
 displaying the IP addresses and symbolic names of all hosts in the current subnet
+
 displaying a list of open system TCP ports
 ![1](https://github.com/anastasiia-honcharenko/DevOps_online_Dnipro_2021Q4/blob/main/m7/%20task7.1%201.png)
 
