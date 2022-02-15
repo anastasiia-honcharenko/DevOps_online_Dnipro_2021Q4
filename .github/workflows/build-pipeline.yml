@@ -19,12 +19,13 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_HUB_LOGIN }}
         password: ${{ secrets.DOCKER_HUB_TOKEN }}
-        
+    - name: Change dir
+      run: cd final\ project
     - name: Build and push
       uses: docker/build-push-action@v2.9.0
       with:
         context: .
-        file: ./final project/Dockerfile
+        file: ./Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_HUB_TOKEN }}/final-project:latest
 #    - name: Build the Docker image
