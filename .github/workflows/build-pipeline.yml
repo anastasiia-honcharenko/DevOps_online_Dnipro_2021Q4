@@ -26,6 +26,6 @@ jobs:
         context: .
         file: final-project/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/final-project:latest
+        tags: ${{ secrets.DOCKER_HUB_TOKEN }}/final-project:latest
 #    - name: Build the Docker image
 #      run: cd final\ project && docker build . --file Dockerfile --tag final-project:$(date +%s)
